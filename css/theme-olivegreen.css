@@ -5128,6 +5128,7 @@ li + li .input-checkbox {
   padding-bottom: 8.125em;
   margin-top: 0;
   margin-bottom: 0;
+  
 }
 @media all and (max-width: 767px) {
   .tabs-5 .tabs {
@@ -6009,12 +6010,12 @@ section.features .feature-2 {
 }
 @media all and (max-width: 990px) {
   .card .card__body {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 @media all and (max-width: 767px) {
   .card .card__body {
-    margin-bottom: 15px;
+    margin-bottom: 1px;
     min-width: 100%;
   }
 }
@@ -6171,10 +6172,14 @@ a:active .card {
   }
 }
 .card-7 {
-  margin-bottom: 30px;
+  border-radius: 12px;
+  margin-bottom: 5px;
 }
 .card-7 .card__body {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
   position: relative;
+  padding: 20px;
 }
 .card-7 .card__body .card__title h6,
 .card-7 .card__body .card__title h5 {
@@ -6183,7 +6188,7 @@ a:active .card {
 }
 .card-7 .card__body .card__title h6 {
   opacity: .3;
-  margin-bottom: 0.65em;
+  margin-bottom: 10px;
 }
 .card-7 .card__body .card__price {
   position: absolute;
@@ -6193,12 +6198,22 @@ a:active .card {
 .card-7 .card__body .card__price span {
   display: block;
 }
+.card-7 #card__image-7{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+.card-7{
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+}
 .card-7 .card__body .card__price span.type--strikethrough {
   opacity: .5;
 }
 @media all and (max-width: 1200px) {
   .card-7 .card__price {
-    margin-bottom: 0.8125em;
+    margin-bottom: 10px;
   }
 }
 .card-8 {
@@ -6224,6 +6239,8 @@ a:active .card {
   top: 0;
 }
 .card-8 .card__image {
+  /*border-top-left-radius: 12px;*/
+  /*border-bottom-left-radius: 25px;*/
   padding: 0;
   overflow: hidden;
   background: #eee;
